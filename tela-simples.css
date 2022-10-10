@@ -1,0 +1,258 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(211, 211, 211, 0.829);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Título*/
+h4 {
+    text-align: center;
+    margin-left: -23em;
+    margin-bottom: -1em;
+    text-transform: capitalize;
+    
+    font-variant: small-caps;
+}
+/*Local de todo o conteúdo*/
+main {
+    background-image: linear-gradient(to bottom, rgba(5, 5, 73, 0.795), rgba(5, 5, 73, 0.719),rgba(255, 255, 255, 0.103));
+    margin: auto;
+    max-width: 21em;
+    min-height: 600px;
+    border-radius: 5%;
+}
+
+div.raio-superior {
+    background-color: rgb(255 255 255 / 86%);
+    border-radius: 10px 10px 80px 78px;
+    position: absolute;
+    top: 37px;
+    left: 51%;
+    padding: 13px;
+    margin-left: -110px;
+    min-width: 152px;
+}
+/*Seção que determina a largura da parte superior*/
+section.parte-superior {
+    max-width: 62vw;
+}
+
+p {
+    color: white;
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+/*Parte das imagens no topo*/
+div.topo {
+   text-align: end;
+}
+
+div.menu-barras > img {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 25px;
+}
+
+div.sino-de-notificacao {
+    margin-top: -30px;
+    margin-left: 90%;
+    width: 130px;
+}
+/*Referente ao perfil mostrado na tela*/
+aside {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 111px;
+    left: 49%;
+    margin-left: -8em;
+    max-width: 47px;
+    height: 45px;
+}
+
+aside > p {
+    display: inline-flex;
+    margin-left: 110%;
+    margin-top: -10px;
+    text-align: justify;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+   justify-content: end;
+}
+
+article > img {
+    width: 40px;
+}
+
+article > p {
+    margin: -16px 8px 0px -10px;
+}
+
+hr.principal {
+    margin-top: -4%;
+    width: 90%;
+}
+
+hr.secundario {
+    margin-top: 20px;
+   min-width: 21em;
+}
+
+section.historico {
+    background-color: rgba(5, 5, 73, 0.795);   
+    padding: 1px;
+    width: 334px;
+}
+
+.historico > h2 {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div.transferencia-recebido {
+    display: inline-flex; 
+    align-items: flex-end;
+    margin-top: 3px;
+    background-color: rgba(5, 5, 73, 0.795);
+    width: 21em;
+}
+
+div.transferencia-recebido > img {
+    margin-top: 44px;
+    margin-left: 11px;
+}
+
+div.transferencia-enviada {
+    display: inline-flex; 
+    align-items: flex-end;
+    margin-top: 3px;
+    background-color: rgba(5, 5, 73, 0.795);
+    width: 21em;
+}
+
+div.transferencia-enviada > img {
+    margin-left: 11px;
+}
+
+div.alerta {
+    display: inline-flex; 
+    align-items: flex-end;
+    margin-top: 3px;
+    background-color: rgba(5, 5, 73, 0.795);
+    width: 21em;
+}
+
+div.alerta > img {
+    width: 32px;
+    margin-left: 11px;
+}
+
+div.ad {
+    display: inline-flex; 
+    align-items: flex-end;
+    margin-top: 3px;
+    background-color: rgba(5, 5, 73, 0.795);
+    width: 21em;
+}
+div.ad > img {
+    margin-left: 11px;
+}
+
+img {
+    position: relative;
+    top: -28px;
+    right: 5px;
+    width: 22%;
+    border-radius: 5%;
+}
+/*Parte inferior das imagens*/
+div.baixo {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: -3px;
+    padding: 30px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 48%);
+}
+
+img.home {
+    background-color: #303D6B;
+    border-radius: 30%;
+    margin-left: -2%;
+    padding: 13px;
+    width: 32%;
+}
+
+img.transferencia {
+    background-color: #303D6B;
+    border-radius: 25%;
+    margin-left: 9%;
+    padding: 13px;
+    width: 32%;
+}
+img.pontos {
+    background-color: #303D6B;
+    border-radius: 25%;
+    margin-left: 29%;
+    padding: 15px;
+    width: 32%;
+}
+
+img.extrato {
+    background-color: #303D6B;
+    border-radius: 25%;
+    margin-left: 59%;
+    padding: 15px;
+    width: 32%;
+}
+
+/*Parte dos títulos*/
+div.titulos {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -5em;
+}
+
+div.titulos > h6.primeiro-titulo {
+margin-left: 31px;
+ font-variant: small-caps;
+
+}
+
+div.titulos > h6.segundo-titulo {
+    margin-left: 31px;
+    font-variant: small-caps;
+}
+
+div.titulos > h6.terceiro-titulo {
+    margin-left: 10px;
+    font-variant: small-caps;
+}
+
+div.titulos > h6.quarto-titulo {
+    margin-left: 12px;
+    font-variant: small-caps;
+}
+/*Última parte o raio */
+div.raio {
+    background-color: rgba(128, 128, 128, 0.473);
+    border-radius: 8% 7px 10px;
+    position: relative;
+    top: -79px;
+    left: 28%;
+    padding: 3px;
+    width: 42%;
+}
+/*Sem rolagem*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
