@@ -3,7 +3,7 @@ body {
     background-color: rgba(211, 211, 211, 0.829);
     font-family: Arial, Helvetica, sans-serif;
 }
-/*Título*/
+/* Título Principal */
 h4 {
     text-align: center;
     margin-left: -20em;
@@ -12,7 +12,7 @@ h4 {
     
     font-variant: small-caps;
 }
-/*Local de todo o conteúdo*/
+/* Local de todo o conteúdo */
 main {
     background-image: linear-gradient(to bottom, rgba(5, 5, 73, 0.795), rgba(5, 5, 73, 0.719),rgba(255, 255, 255, 0.103));
     margin: auto;
@@ -31,7 +31,7 @@ div.raio-superior {
     margin-left: -110px;
     min-width: 152px;
 }
-/*Seção que determina a largura da parte superior*/
+
 section.parte-superior {
     max-width: 62vw;
 }
@@ -42,7 +42,7 @@ p {
     margin-left: 15px;
     font-size: 14px;
 }
-/*Parte das imagens no topo*/
+/* imagens no topo */
 div.topo {
    text-align: end;
 }
@@ -58,7 +58,7 @@ div.sino-de-notificacao {
     margin-left: 90%;
     width: 130px;
 }
-/*Referente ao perfil mostrado na tela*/
+/* perfil mostrado na tela*/
 aside {
     background-color: white;
     border-radius: 50%;
@@ -100,7 +100,7 @@ hr.secundario {
     margin-top: 20px;
    min-width: 21em;
 }
-
+/* Seção do histórico */
 section.historico {
     background-color: rgba(5, 5, 73, 0.795);   
     padding: 1px;
@@ -170,7 +170,7 @@ img {
     width: 22%;
     border-radius: 5%;
 }
-/*Parte inferior das imagens*/
+/* Divisão das partes inferior com as imagens */
 div.baixo {
     background-color: white;
     display: flex;
@@ -213,7 +213,7 @@ img.extrato {
     width: 32%;
 }
 
-/*Parte dos títulos*/
+/* Parte dos botões */
 div.titulos {
     display: flex;
     flex-direction: row;
@@ -241,7 +241,7 @@ div.titulos > h6.quarto-titulo {
     margin-left: 12px;
     font-variant: small-caps;
 }
-/*Última parte o raio */
+
 div.raio {
     background-color: rgba(128, 128, 128, 0.473);
     border-radius: 8% 7px 10px;
@@ -251,7 +251,7 @@ div.raio {
     padding: 3px;
     width: 42%;
 }
-/*Sem rolagem*/
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
